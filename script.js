@@ -1,3 +1,10 @@
+/*
+    For this project I used fadeIn() and fadeOut().
+    These methods play an animation where the selected object fades in or out depending on method called.
+    I chose these to add animations to the creation and deletion of pets.
+    These methods were also used for the visual notification, so that they fade away after some time.
+*/
+
 $(function() { // Makes sure that your function is called once all the DOM elements of the page are ready to be used.
     
     // Called function to update the name, happiness, and weight of our pet in our HTML
