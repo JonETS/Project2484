@@ -1,0 +1,124 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 25px;
+  }
+  
+  main {
+    display:block;
+    height:175px;
+    width: fit-content;
+    height: fit-content;
+  }/*fit-content is used for main to resize to fit child elements*/
+  
+  header {
+    border-bottom: 1px solid black;
+  }
+  
+  h1 {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  p {
+    max-width: 600px;
+  }
+  
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    padding-top: 25px;
+    border-top: 1px solid black;
+  }
+  
+  footer a {
+    float:left;
+    margin:5px;
+  }
+
+  footer input{
+    width: 150px;
+    height: 25px;
+    font-size: 20px;
+  }
+
+  footer button{
+    width: 100px;
+    height: 30px;
+    font-size: 25px;
+  }
+
+  /*This is the parent element for all the elements for a pet*/
+  article {
+    display: flow-root;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+  }/*flow-root resets the flow, seperating articles to be in their own line*/
+  
+  .pet-image {
+    height:250px;
+    
+  }
+  .dashboard div {
+    display:block;
+  }
+  
+  .pet-image-container {
+    float:left;
+    padding:10px; 
+  }
+  
+  .dashboard {
+    float:left;
+    padding:20px;
+  }
+
+  .options{
+    float: left;
+    padding: 20px;
+  }
+  .options button{
+      margin-right: 25px;
+      text-align: center;
+      display: inline-block;
+      float: left;
+    font-size:25px;
+    background-color: #c7c5c5;
+    border-color: #000000;
+    cursor:pointer;
+    background-image: linear-gradient(to bottom,rgba(246,246,246,.1)0%,rgba(30,40,53,0)66%);
+    color:rgb(255, 0, 0);
+  }
+  .button-container {
+    margin-top:20px;
+  }
+  
+  .button-container button {
+    width: 100px;
+      margin-right: 10px;
+      text-align: center;
+      display: inline-block;
+      float: left;
+    font-size:15px;
+    background-color: #1e2835;
+    border-color: #404853;
+    cursor:pointer;
+    background-image: linear-gradient(to bottom,rgba(246,246,246,.1)0%,rgba(30,40,53,0)66%);
+    color: #fafafa;
+  }
+
+  .message {
+    font-size: 32px;
+    /* visibility: hidden; */
+  }
